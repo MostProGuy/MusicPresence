@@ -1,0 +1,9 @@
+{
+  "name": "ytmusic_discord_rpc",
+  "description": "YouTube Music Discord Rich Presence bridge",
+  "path": "/home/femboytotoso/Downloads/ytmusic-discord-rpc/native-host/ytmusic_discord_rpc.py",
+  "type": "stdio",
+  "allowed_extensions": [
+    "ytmusic-discord-rpc@local"
+  ]
+}

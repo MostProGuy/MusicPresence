@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YTM Rich Presence</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <main class="card">
+    <div class="topline"><span id="eyebrow" class="eyebrow">DISCORD RICH PRESENCE</span><span id="dot" class="dot"></span></div>
+    <div class="cover-wrap"><img id="cover" alt="Capa da música"><div id="cover-fallback">♫</div></div>
+    <div class="meta"><h1 id="title">Nothing playing</h1><p id="artist">Open YouTube Music</p></div>
+    <div class="timeline"><input id="seek" type="range" min="0" max="100" value="0"><div class="times"><span id="current">0:00</span><span id="duration">0:00</span></div></div>
+    <div class="controls"><button id="back" title="Open YouTube Music">↗</button><button id="toggle" class="play" title="Play / pause">▶</button><button id="settings" title="Settings">⚙</button></div>
+    <p id="status" class="status"></p>
+  </main>
+  <script src="ext.js"></script><script src="popup.js"></script>
+</body>
+</html>
